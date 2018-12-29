@@ -1,0 +1,412 @@
+@media screen and (max-width: 940px) {
+.subContainer{
+  width:100%;
+  height:90%;
+  max-width:100%;
+  max-height:90%;
+  overflow:hidden;
+  background-color: #455370;
+  box-sizing: border-box;
+  padding: 3%;
+}
+.containerFirstHeaderLeft p {
+  margin-top: 20px;
+  box-sizing: border-box;
+  font-size: 18px;
+  font-family: 'Circe';
+}
+.containerFirstHeaderRight {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 100%;
+  width: 250px;
+  font-size: 13px;
+  font-family: 'Circe';
+}
+.containerFirstHeaderRight div {
+    height: 50%;
+    width: 65px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 12px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-top: 20px;
+    border:2px solid rgba(0,0,0,0);
+}
+.containerFirstHeaderRight div:hover {
+    border: 2px solid #fff;
+    cursor: pointer;
+}
+.containerFirstMain h1 {
+  margin: 7% auto 0;
+  font-family: CirceBold;
+  text-transform: uppercase;
+  font-size: 40px;
+  width: 620px;
+  padding-top: 0px;
+  margin-bottom: 30px;
+}
+.containerFirstMain p {
+    font-weight: normal;
+    width: 550px;
+    font-family: Circe;
+    font-size: 16px;
+}
+.centerButton{
+  margin: 3% auto 5%;
+  width: 240px;
+  height: 65px;
+  font-family: CirceBold;
+  font-size: 23px;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: lightgreen;
+  border-radius:35px;
+  padding-top: 18px;
+  box-sizing: border-box;
+  filter: brightness(100%);
+  color: #f4f3fc;
+}
+.centerButton:hover{
+  filter: brightness(90%);
+}
+#containerSecond {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #415075;
+    position: relative;
+}
+.containerSecondLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+.containerSecondLeft h2 {
+    text-transform: uppercase;
+    width: 200px;
+    font-size: 30px;
+}
+.subContainerText {
+    font-size: 16px;
+    font-family: Circe;
+    width: 430px;
+    color: #bfbdbc;
+    margin-bottom: 0px;
+}
+.subContainerButton{
+  margin-top: 0px;
+  position: relative;
+  font-family: Circe;
+  font-size: 15px;
+  color: #86d45c;
+  filter: brightness(100%);   
+  padding:7px 2px;
+  text-align: center;
+  border: solid 2px #86d45c;
+  box-sizing: border-box;
+  border-radius: 40px;
+}
+.subContainerButton:hover{
+  filter: brightness(80%);  
+}
+.subContainerButton img{
+  width: 6px;
+  position: relative;
+  top:2px;
+}
+.containerSecondRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    width: 100%;
+    height: 60%;
+     margin-bottom: 20px;
+    margin-left: 5%;
+}
+.containerSecondRight img {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    max-height: 100%;
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
+#containerThird {
+  
+  width:100%;
+  height:100%;
+  max-width:100%;
+  max-height:100%;
+  overflow:hidden;
+  background-color: #455370;
+  box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #415075;
+    position: relative;
+    border-top: 1.5px solid #495982;
+}
+.containerThirdBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.containerThirdBlock h3 {
+  text-transform: uppercase;
+   color: #f7efe9;
+   font-family: CirceBold;
+   font-size: 18px;
+   text-align: center;
+   margin: 0;
+   padding:0;
+   box-sizing: border-box;
+}
+.containerThirdBlock p {
+    margin-top: 0;
+    text-align: center;
+    font-weight: normal;
+    font-family: Circe;
+    font-size: 15px;
+    width: 300px;
+    color: #bfbdbc;
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+.containerThirdBlock img {
+    margin-bottom: 15px;
+    width: 100px;
+    height: 60px;
+    box-sizing: border-box;
+}
+#containerFourth {
+  width:100%;
+  height:80%;
+  max-width:100%;
+  max-height:80%;
+  overflow:hidden;
+  background-color: #455370;
+  box-sizing: border-box;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #415075;
+    position: relative;
+}
+.containerFourthRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.containerFourthRight h2 {
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    text-transform: uppercase;
+    width: 380px;
+    font-size: 30px;
+    margin-top: 5px;
+}
+.containerFourthRight .subContainerText {
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 16px;
+    font-family: Circe;
+    width: 520px;
+    color: #bfbdbc;
+    margin-bottom: 10px;
+}
+.containerFourthLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    width: 100%;
+    height: 50%;
+    margin-top: 25px;
+     margin-bottom: 10px;
+    margin-left: 5%;
+}
+.containerFourthLeft img {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    max-height: 100%;
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
+#containerFifth {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70%;
+    background-color: #415075;
+    position: relative;
+}
+.containerFifthLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+.containerFifthLeft h2 {
+    text-transform: uppercase;
+    width: 250px;
+    font-size: 30px;
+}
+.containerFifthRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    width: 100%;
+    height: 60%;
+     margin-bottom: 25px;
+    margin-left: 5%;
+}
+.containerFifthRight img {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    max-height: 100%;
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
+#containerSix {
+  width:100%;
+  height:100%;
+  max-width:100%;
+  max-height:100%;
+  overflow:hidden;
+  background-color: #455370;
+  box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.containerSixLeft td{
+  border: solid 1.5px #495982;
+  border-collapse: collapse;
+  box-sizing: border-box;
+  text-align: center;
+  border: solid 1px #4f5f80;
+  font-family: Circe;
+  font-size: 12px;
+  padding:2px;
+}
+.containerSixLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.containerSixLeft table{
+  width: 470px;
+}
+.containerSixLeft h2 {
+    text-transform: uppercase;
+    width: 340px;
+    font-size: 27px;
+    margin-bottom: 1px;
+    margin-left: 40%;
+}
+.containerSixRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 450px;
+    margin-bottom: 25px;
+    margin-left: 7%;
+    margin-top: 1%;
+}
+.containerSixRight h2 {
+    text-align: center;
+    text-transform: uppercase;
+    width: 440px;
+    font-size: 27px;
+}
+
+.subContainerSubTextGray{
+   font-family: Circe;
+   font-size: 14px;
+   color:#FFFFFF;
+   padding:0px;
+   margin:0px;
+   margin-left: 30px;
+}
+.subContainerSubTextWhite{
+   font-family: Circe;
+   font-size: 14px;
+   color:#b9b8bd;
+   padding:0px;
+   margin-top:3%;
+   margin-bottom:3%;
+}
+#subContainerSeven {
+  width:100%;
+  height:60%;
+  max-width:100%;
+  max-height:60%;
+  overflow:hidden;
+  background-color: #455370;
+  box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.formWrapper{
+  position: absolute;
+  width: 500px;
+  height: 450px;
+  background-color: white;
+  margin-top: 10%;
+  border-radius: 4px;
+}
+.formWrapperHeader{
+  text-align: center;
+     font-size: 30px;
+     color: #000000;
+     font-family: 'CirceBold';
+     text-transform: uppercase;
+}

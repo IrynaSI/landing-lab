@@ -1,0 +1,109 @@
+@media screen and (max-width: 1150px) {
+  
+.containerFirstMain h1 {
+  margin: 7% auto 0;
+  font-family: CirceBold;
+  text-transform: uppercase;
+  font-size: 42px;
+  width: 650px;
+  padding-top: 10px;
+  margin-bottom: 30px;
+}
+.containerFirstMain p {
+    font-weight: normal;
+    width: 650px;
+    font-family: Circe;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.subContainerText {
+    font-size: 13px;
+    font-family: Circe;
+    width: 350px;
+    color: #bfbdbc;
+}
+.containerThirdBlock p {
+    margin-top: 0;
+    text-align: center;
+    font-weight: normal;
+    font-family: Circe;
+    font-size: 13px;
+    width: 250px;
+    color: #bfbdbc;
+}
+.containerSixLeft table{
+  width: 100%;
+  height: 160px;
+  border:solid 1px #495982;
+  border-collapse: collapse;
+  text-align: center;
+}
+.containerSixLeft td{
+  border: solid 1px #495982;
+  border-collapse: collapse;
+  box-sizing: border-box;
+  text-align: center;
+  border: solid 1px #4f5f80;
+  font-family: Circe;
+  font-size: 13px;
+  padding:2px;
+}
+.containerSixLeft td:nth-child(1){
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  padding: 2% 4%;
+  box-sizing: :border-box;
+  width: 130px;
+  text-align: left;
+  color: lightblue;
+  max-width: 0;
+}
+.containerSixLeft td:nth-child(2){
+  color: #b9b8bd;
+  width: 35%
+}
+.containerSixLeft td:nth-child(3){
+  color: #86d45c;
+  width: 26%;
+}
+.subContainerSubTextGray{
+   font-family: Circe;
+   font-size: 13px;
+   color:#FFFFFF;
+   padding:0px;
+   margin:0px;
+}
+.subContainerSubTextWhite{
+   font-family: Circe;
+   font-size: 13px;
+   color:#b9b8bd;
+   padding:0px;
+   margin:0px;
+}
+
+.subContainerCenterFirst{ 
+  font-family: CirceBold;
+  font-size: 30px;
+  width: 450px;
+  height: 70px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #f4f3fc;
+  margin: 9% auto 0;
+}
+.formWrapper{
+  position: absolute;
+  width: 550px;
+  height: 460px;
+  background-color: white;
+  margin-top: 6%;
+  border-radius: 4px;
+}
+.formWrapperHeader{
+  text-align: center;
+     font-size: 35px;
+     color: #000000;
+     font-family: 'CirceBold';
+     text-transform: uppercase;
+}
